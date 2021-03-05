@@ -272,7 +272,7 @@ HingeJoint2D:
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: -15
     m_UpperAngle: 15
@@ -510,7 +510,7 @@ HingeJoint2D:
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: -15
     m_UpperAngle: 15
@@ -551,7 +551,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 188783acbe6ebf7459c4cee41eccc9ce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -577,7 +577,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.075
+    widthMultiplier: 0.75
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -677,6 +677,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f2622d4583363f429e83e16d335e57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  connectedObject: {fileID: 1052502283}
+  ropeSegmentPrefab: {fileID: 8498145381630339680, guid: 8e0e4fe3754952c4b98b4e6b39aa5bc5,
+    type: 3}
+  maxRopeSegmentLength: 1
+  ropeSpeed: 4
 --- !u!1 &1003276376
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,7 +870,7 @@ HingeJoint2D:
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: -45
     m_UpperAngle: 0
@@ -1040,7 +1045,7 @@ HingeJoint2D:
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: -45
     m_UpperAngle: 0
@@ -1305,7 +1310,7 @@ HingeJoint2D:
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: -15
     m_UpperAngle: 15
