@@ -63,7 +63,7 @@ public class Rope : MonoBehaviour{
     }
 
     void RemoveRopeSegment(){
-        if(ropeSegments.Count < 1){
+        if(ropeSegments.Count < 3){
             return;
         }
 
