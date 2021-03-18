@@ -1,0 +1,57 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "unity-tools.documentationVersion" : "2018.4",
+            "unity-tools.enableRightClickSearch" : true,
+            "unity-tools.localDocumentationPath" : "Applications/Unity/Documentation/en/ScriptReference/",
+            "unity-tools.localDocumentationViewer" : "firefox"
+        },
+        {
+            "name": "Unity Editor",
+            "type": "unity",
+            "path": "/c:/Users/brian/ExploreWell/Assets/Scripts/Library/EditorInstance.json",
+            "request": "launch"
+        },
+        {
+            "name": "Windows Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "OSX Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "Linux Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "iOS Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "Android Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "Xbox One Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "PS4 Player",
+            "type": "unity",
+            "request": "launch"
+        },
+        {
+            "name": "SwitchPlayer",
+            "type": "unity",
+            "request": "launch"
+        }
+    ]
+}
