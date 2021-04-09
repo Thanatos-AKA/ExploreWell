@@ -118,7 +118,7 @@ public class Gnome : MonoBehaviour{
 
 	IEnumerator ReleaseGhost(){
 		if(ghostPrefab == null){
-			return;
+			yield break;
 		}
 
 		yield return new WaitForSeconds(delayBeforeReleasingGhost);
